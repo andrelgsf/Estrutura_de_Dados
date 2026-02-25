@@ -6,7 +6,7 @@ void swap_ranges(int *a_begin, int *a_end, int *b_begin) { //função que possui
         
         int temp = *a_begin; //guardo temporariamnete o valor no começo do primeiro intervalo
         *a_begin = *b_begin; //troco para o segundo intervalo
-        *b_begin = temp; //assimilo o valor temporário que antes era de a para b
+        *b_begin = temp; //assimilo o valor temporário que antes era de a, para b
 
         a_begin++;
         b_begin++; //incremento para a próxima posição do vetor
